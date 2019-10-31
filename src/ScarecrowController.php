@@ -13,7 +13,7 @@ class ScarecrowController {
     public function __construct($config=[])
     {
         set_time_limit(0);
-        $this->CONFIG = $config+json_decode(preg_replace("/\/\*[\s\S]+?\*\//", "", file_get_contents("config.json")), true);
+        $this->CONFIG = $config+json_decode(preg_replace("/\/\*[\s\S]+?\*\//", "", file_get_contents(__DIR__ . "/config.json")), true);
     }
 
     public function action($getArray = []) {
