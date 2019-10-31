@@ -1,12 +1,12 @@
 {
-    "name": "Scarecrow/ScarecrowUeDitorPhp",
+    "name": "scarecrow/scarecrow-ueditor-php",
     "type": "project",
     "description": "Ueditor 1.4.3 PHP BACK(百度富文本编辑器PR4后台处理方法)",
     "keywords": [
         "Ueditor",
         "Scarecrow"
     ],
-    "license": "MIT",
+    "license": "Apache2.0",
     "autoload": {
         "psr-4": {
             "ScarecrowUeDitor\\": "src/"
