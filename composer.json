@@ -1,15 +1,23 @@
 {
     "name": "scarecrow/scarecrow-ueditor-php",
-    "type": "project",
+    "type": "library",
     "description": "Ueditor 1.4.3 PHP BACK(百度富文本编辑器PR4后台处理方法)",
-    "keywords": [
-        "Ueditor",
-        "Scarecrow"
+    "keywords": ["ditor"],
+    "homepage": "https://github.com/scarecrowpqs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scarecrow",
+            "email": "1366635163@qq.com",
+            "homepage": "https://github.com/scarecrowpqs"
+        }
     ],
-    "license": "Apache2.0",
+    "require": {
+        "php": ">=7.0.0"
+    },
     "autoload": {
         "psr-4": {
-            "ScarecrowUeDitor\\": "src/"
+          "ScarecrowAlipay\\": "src/"
         }
     }
-}
+  }
